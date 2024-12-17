@@ -27,7 +27,7 @@ console.log(prezzoTotale);
 
   if(eta < 18) {
     let sconto = 20/100;
-    prezzoTotale = (prezzoTotale - (prezzoTotale * sconto));
+    prezzoTotale = (prezzoTotale - (prezzoTotale * sconto)).toFixed(2);
     console.log(prezzoTotale);
     
   }
@@ -35,7 +35,7 @@ console.log(prezzoTotale);
 
   else if(eta > 65) {
     let sconto = 40/100;
-    prezzoTotale = (prezzoTotale - (prezzoTotale * sconto));
+    prezzoTotale = (prezzoTotale - (prezzoTotale * sconto)).toFixed(2);
     console.log(prezzoTotale);
 }
 
