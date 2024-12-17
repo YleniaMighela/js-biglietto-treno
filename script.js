@@ -17,14 +17,27 @@ let eta = parseInt(prompt("Inserire età passeggero"))
 const prezzochilometro = 0.21;
 
 // Calcoliamo il prezzo del biglietto in base ai km
+let prezzoTotale = (chilometri * prezzochilometro);
 
+console.log(prezzoTotale);
 
 
 // In base all'età del passeggero applichiamo gli sconti
   // SE è minore di 18 anni avrà lo sconto del 20%
-    
 
-  // SE è maggiore di 65 anni avrà lo sconto del 40%
+  if(eta < 18) {
+    let sconto = 20/100;
+    prezzoTotale = (prezzoTotale - (prezzoTotale * sconto));
+    console.log(prezzoTotale);
+    
+  }
+    // SE è maggiore di 65 anni avrà lo sconto del 40%
+
+  else if(eta > 65) {
+    let sconto = 40/100;
+    prezzoTotale = (prezzoTotale - (prezzoTotale * sconto));
+    console.log(prezzoTotale);
+}
 
 
   // SE il passeggero ha un'età tra i 18 e i 64 anni pagherà prezzo pieno
