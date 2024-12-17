@@ -11,7 +11,7 @@
 let chilometri = parseInt(prompt("Inserire quanti chilometri si vogliono percorrere "));
 
 // Chiediamo all'utente l'età del passeggero
-let eta = parseInt(prompt("Inserire età passeggero"))
+let eta = parseInt(prompt("Inserire età passeggero"));
 
 // Prezzo del biglietto
 const prezzochilometro = 0.21;
