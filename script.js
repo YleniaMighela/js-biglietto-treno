@@ -42,7 +42,12 @@ console.log(prezzoTotale);
 
   // SE il passeggero ha un'età tra i 18 e i 64 anni pagherà prezzo pieno
 
+else{
+    console.log(prezzoTotale);
+}
+
 
 // OUTPUT 
 // Prezzo totale
     
+console.log(`il prezzo totale del biglietto sarà di ${prezzoTotale} `);
